@@ -1,0 +1,142 @@
+*{padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-image: linear-gradient(to right, skyblue, rgb(244, 108, 151));
+}
+
+div.wrapper {
+  background-color: rgba(237, 239, 241, 255);
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 40px;
+  margin-top: 30px;
+  border-radius: 7px;
+}
+
+nav.nav {
+  display: flex;
+  font-weight: 600;
+  margin-bottom: 50px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  margin-top: 7px;
+}
+
+ul.nav-links {
+  display: flex;
+  margin-left: 535px;
+  margin-top: 7px;
+}
+
+ul.nav-links li {
+  margin-left: 15px;
+}
+
+.nav button {
+  margin-left: 30px;
+  color: white;
+  padding: 7px 10px;
+  background-color: black;
+  border-radius: 5px;
+  outline: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.intro {
+  margin: 40px 60px;
+}
+
+.intro-image {
+  /* background-image: linear-gradient( to  top, blue, red, white) 
+;
+   */
+  background-color: blue;
+}
+.intro-image img {
+  width: 400px;
+}
+
+div .intro-text {
+  margin-left: 105px;
+  width: 430px;
+  font-size: 18px;
+  color: rgba(122, 120, 120, 0.8);
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+}
+div .intro-text p {
+  line-height: 25px;
+}
+
+div .intro-text h1 {
+  color: black;
+  font-size: 60px;
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+
+div .about {
+  align-items: center;
+  margin-top: 110px;
+}
+ div .about-text {
+    width: 390px;
+    margin-left: 60px;
+  }
+  div .about-text h1 {
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  div .about-text p {
+    color: rgba(122, 120, 120, 0.948);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+  }
+  
+  div.skills {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  
+  div.skills ul li {
+    margin: 3px;
+    text-transform: uppercase;
+    border: 1px solid rgba(128, 128, 128, 0.303);
+    border-radius: 5px;
+    padding: 3px 5px;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    max-width: 180px;
+  }
+  
+  .skills-one ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .skill-three ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .skill-four ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
